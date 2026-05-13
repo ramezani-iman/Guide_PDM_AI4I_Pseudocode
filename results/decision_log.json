@@ -1,0 +1,22 @@
+{
+  "seed": 2026,
+  "thresholds": {
+    "tau_precision_pos": 0.9,
+    "tau_recall_pos": 0.8,
+    "mu_max": 0.01,
+    "rho_band": [
+      0.01,
+      0.1
+    ],
+    "delta_f1": 0.05,
+    "delta_recall": 0.05
+  },
+  "selected_model": "Decision Tree (depth=6)",
+  "dt_depth": 6,
+  "dt_threshold": 0.99,
+  "mlp_threshold": 0.88,
+  "verdict": "complex AI not justified -- traditional model retained",
+  "delta_f1": -0.22773109243697476,
+  "delta_recall": -0.0980392156862745,
+  "dt_passes_gate": true
+}
